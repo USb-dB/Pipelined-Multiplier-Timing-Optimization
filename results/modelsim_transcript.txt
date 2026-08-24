@@ -1,0 +1,28 @@
+# Compile of topModule.v was successful.
+# Compile of testBench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.pipelined_multiplier_tb
+# vsim -gui work.pipelined_multiplier_tb 
+# Start time: 16:28:27 on Aug 24,2026
+# Loading work.pipelined_multiplier_tb
+# Loading work.pipelined_multiplier
+add wave sim:/pipelined_multiplier_tb/*
+vsim -gui work.pipelined_multiplier_tb
+# End time: 16:29:11 on Aug 24,2026, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 6
+# vsim -gui work.pipelined_multiplier_tb 
+# Start time: 16:29:11 on Aug 24,2026
+# Loading work.pipelined_multiplier_tb
+# Loading work.pipelined_multiplier
+add wave sim:/pipelined_multiplier_tb/*
+run -all
+# Time=0 | valid_out=0 | result=0
+# Time=65 | valid_out=1 | result=60
+# Time=75 | valid_out=1 | result=56
+# Time=85 | valid_out=1 | result=45
+# Time=95 | valid_out=1 | result=54
+# Time=105 | valid_out=0 | result=54
+# ** Note: $finish    : C:/Users/PRANTIK/Desktop/7th Semester/Timing Optimization/testBench.v(47)
+#    Time: 140 ps  Iteration: 0  Instance: /pipelined_multiplier_tb
+# 1
+# Break in Module pipelined_multiplier_tb at C:/Users/PRANTIK/Desktop/7th Semester/Timing Optimization/testBench.v line 47

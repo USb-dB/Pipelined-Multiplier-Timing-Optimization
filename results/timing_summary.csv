@@ -1,0 +1,4 @@
+version,Fmax_MHz,worst_setup_slack_ns,critical_path_delay_ns,critical_path
+baseline,135.72,2.632,7.318,stage2_b[0] -> stage3_sum[15]
+optimized_v1,166.89,4.008,5.944,stage1_a[1] -> stage2_partial[11]
+optimized_v2,165.70,3.965,5.989,stage2_b[2] -> stage3_sum[15]

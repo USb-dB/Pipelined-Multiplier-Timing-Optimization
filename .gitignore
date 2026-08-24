@@ -1,0 +1,23 @@
+# Quartus generated files
+*.rdb
+*.qdb
+*.smsg
+*.jdi
+*.summary
+*.done
+*.pin
+*.ppf
+*.cmp
+*.sof
+*.pof
+*.sta
+incremental_db/
+db/
+output_files/
+
+# ModelSim generated files
+*.wlf
+work/
+transcript
+vsim.wlf
+*.vcd

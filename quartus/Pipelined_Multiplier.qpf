@@ -1,0 +1,3 @@
+QUARTUS_VERSION = "20.1"
+DATE = "2026-08-24"
+PROJECT_REVISION = "Pipelined_Multiplier"

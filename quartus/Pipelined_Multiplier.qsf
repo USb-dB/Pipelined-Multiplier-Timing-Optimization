@@ -1,0 +1,5 @@
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE22F17C6
+set_global_assignment -name TOP_LEVEL_ENTITY pipelined_multiplier
+set_global_assignment -name VERILOG_FILE ../rtl/optimized/pipelined_multiplier_optimized.v
+set_global_assignment -name SDC_FILE timing.sdc
