@@ -22,7 +22,7 @@ The ModelSim testbench checks:
 - 6 × 9 = 54
 
 The testbench also demonstrates back-to-back valid inputs and pipeline latency.
-![ModelSim Simulation Waveform](results/modelsim_waveform.png)
+![ModelSim Simulation Waveform](docs/modelsim_waveform.png)
 ## Timing Optimization
 
 ### Baseline
